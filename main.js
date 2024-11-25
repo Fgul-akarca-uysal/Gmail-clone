@@ -133,7 +133,7 @@ ele.searchInp.addEventListener("input", (e) => {
   //yeni tus vurusunda onceki geri sayimi sifirla
   clearTimeout(timer);
   //fonksiyonu calistirmak icin geri sayim baslat
-  timer = setTimeout(() => searchMail(e), 1000);
+  timer = setTimeout(() => searchMail(e), 400);
 });
 
 function searchMail(e) {
